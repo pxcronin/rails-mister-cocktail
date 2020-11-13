@@ -11,3 +11,20 @@
 // Your CSS partials
 @import "components/index";
 @import "pages/index";
+
+@import 'select2/dist/css/select2';
+
+.img-thumbnail {
+  max-width: 400px;
+  max-height: 600px;
+}
+
+.removeLink {
+  visibility: hidden;
+}
+
+.revealRemove:hover {
+  .removeLink {
+    visibility: visible;
+  }
+}
